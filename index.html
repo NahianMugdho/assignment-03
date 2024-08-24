@@ -51,7 +51,13 @@
     <header class="md:container mx-auto bg-slate-300">
         <nav class=" bg-slate-300">
             <div class="navbar bg-base-100">
-                <div class="flex-none">
+                <div class="flex-none ">
+                  
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-lime-400  inline-flex rounded-full text-black justify-center items-center"></i> 
+                    <div><a class="btn btn-ghost text-xl font-black text-5xl">Rinterio</a></div>
+                    
+                  </div>
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg
@@ -69,7 +75,7 @@
                     </div>
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                      class="  menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
                       
                       <li class="font-bold"><a>Home</a></li>
                   <li><a>Services</a></li>
@@ -77,11 +83,6 @@
                   <li><a>Blogs</a></li>
                   <li><a>Contact us</a></li>
                     </ul>
-                  </div>
-                  <div class="flex items-center">
-                    <i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-lime-400  inline-flex rounded-full text-black justify-center items-center"></i> 
-                    <div><a class="btn btn-ghost text-xl font-black text-5xl">Rinterio</a></div>
-                    
                   </div>
                  
                 </div>
@@ -99,9 +100,9 @@
 
           <!-- Right Side Icons and Button -->
           <div class="flex-none flex items-center space-x-4">
-              <i class="fa-solid fa-magnifying-glass justify-center items-center px-5 rounded-lg"></i>
-              <i class="fa-solid fa-cart-shopping px-5 "></i>
-              <button class="btn bg-lime-400 rounded-lg font-bold">Book Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-black inline-flex rounded-full text-lime-400 justify-center items-center "></i></button>
+              <i class=" hidden lg:block fa-solid fa-magnifying-glass justify-center items-center px-5 rounded-lg"></i>
+              <i class=" hidden lg:block fa-solid fa-cart-shopping px-5 "></i>
+              <button class="hidden lg:block btn bg-lime-400 rounded-lg font-bold">Book Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-black inline-flex rounded-full text-lime-400 justify-center items-center "></i></button>
           </div>
 
                
@@ -140,7 +141,7 @@
                       The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
                     <div class="flex flex-col">
-                      <div class="flex mb-5 bg-white w-3/4 rounded-lg px-5 pb-5 pt-5" >
+                      <div class="flex mb-5 bg-white lg:w-3/4 rounded-lg px-5 pb-5 pt-5" >
                          <img src="assets/commercial.png" class="mr-5" >
                           <div>
                             <h1 class=" text-black font-extrabold"> Commercial </h1>
@@ -150,7 +151,7 @@
 
                       </div>
 
-                      <div class="flex mb-5 bg-white w-3/4 rounded-lg px-5 pb-5 pt-5" >
+                      <div class="flex mb-5 bg-white lg:w-3/4 rounded-lg px-5 pb-5 pt-5" >
                         <img src="assets/residential.png" class="mr-5" >
                          <div>
                     <h1 class=" text-black font-extrabold"> Residential </h1>
@@ -175,10 +176,24 @@
 
     </main>
 
+<!-- footer section -->
+    <footer class="footer footer-center bg-base-200 text-base-content rounded p-10 bg-gray-900 text-white">
+      
+        
+        <div><a class="btn btn-ghost text-xl from-neutral-50 text-5xl"><i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-lime-400  inline-flex rounded-full text-black justify-center items-center"></i> Rinterio</a></div>
+        
+      <p class="w-1/2"> The barn house captivates with its blend of rustic charm and modern sophistication, 
+        featuring weathered wood, sleek metal accents</p>
 
-    <footer>
-
-
+      <nav class="grid grid-flow-col gap-4">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Porfolio</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <button class="btn bg-lime-400 rounded-lg font-bold flex">Book Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-black inline-flex rounded-full text-lime-400 justify-center items-center "></i></button>
+      
     </footer>
     
 </body>
