@@ -51,7 +51,7 @@
     <header class="md:container mx-auto bg-slate-300">
         <nav class=" bg-slate-300">
             <div class="navbar bg-base-100">
-                <div class="flex-1">
+                <div class="flex-none">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                       <svg
@@ -70,15 +70,12 @@
                     <ul
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
+                      
+                      <li class="font-bold"><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact us</a></li>
                     </ul>
                   </div>
                   <div class="flex items-center">
@@ -88,22 +85,26 @@
                   </div>
                  
                 </div>
-                <div class=" flex-1 hidden lg:flex justify-center">
-                  <ul class="menu menu-horizontal px-6">
-                    <li class="font-bold"><a>Home</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact us</a></li>
+                <!-- Centered Navigation Links -->
+                 <!-- Centered Navigation Links -->
+            <div class="flex-1 hidden lg:flex justify-center">
+              <ul class="menu menu-horizontal px-6 space-x-4">
+                  <li class="font-bold"><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact us</a></li>
+              </ul>
+          </div>
 
-                  </ul>
-                </div>
-                <div class="">
-                    <i class="fa-solid fa-magnifying-glass  justify-center items-center px-5 rounded-lg"></i>
-                    <i class="fa-solid fa-cart-shopping px-5 "></i>
-                  <button class="btn  bg-lime-400 rounded-lg font-bold">Book Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-black inline-flex rounded-full text-lime-400 justify-center items-center "></i> </button>
-                  
-                </div>
+          <!-- Right Side Icons and Button -->
+          <div class="flex-none flex items-center space-x-4">
+              <i class="fa-solid fa-magnifying-glass justify-center items-center px-5 rounded-lg"></i>
+              <i class="fa-solid fa-cart-shopping px-5 "></i>
+              <button class="btn bg-lime-400 rounded-lg font-bold">Book Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 w-7 h-7 bg-black inline-flex rounded-full text-lime-400 justify-center items-center "></i></button>
+          </div>
+
+               
               </div>
 
         </nav>
@@ -123,25 +124,25 @@
 
     </header>
     <main class="md:container mx-auto" >
-        <section class="flex justify-center items-center">
+        <section class="flex justify-center items-center ">
             <div class="hero bg-base-200 min-h-screen">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                   <img
                     src="assets/Rectangle.png"
                     class="max-w-sm rounded-lg shadow-2xl" />
-                  <div>
-                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    
+                  <div class="lg:space-y-4 lg:space-x-11" >
+                    <img class="hidden lg:block" src ="assets/Vector.png">
+                    <div class=" ">
+                    <button class="btn btn-primary bg-white font-black text-black mb-3"><i class="fa-solid fa-arrow-right"></i>Get Started</button>
+                    <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
                     <p class="py-6">
-                      Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                      quasi. In deleniti eaque aut repudiandae et a id nisi.
+                      The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
-                    <button class="btn btn-primary">Get Started</button>
+                  </div>  
                   </div>
                 </div>
               </div>
-
-
-
 
         </section>
 
